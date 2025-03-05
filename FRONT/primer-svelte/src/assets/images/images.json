@@ -1,0 +1,27 @@
+[
+  {
+    "alt": "Disco de freno",
+    "src": "/src/assets/images/break-disk.jpeg",
+    "title": "break-disk.jpeg"
+  },
+  {
+    "alt": "Luz direccional",
+    "src": "/src/assets/images/directional-light.jpeg",
+    "title": "directional-light.jpeg"
+  },
+  {
+    "alt": "Motor azul",
+    "src": "/src/assets/images/engine-blue.jpeg",
+    "title": "engine-blue.jpeg"
+  },
+  {
+    "alt": "Logo Ford",
+    "src": "/src/assets/images/logo-ford.jpeg",
+    "title": "logo-ford.jpeg"
+  },
+  {
+    "alt": "Llanta de auto",
+    "src": "/src/assets/images/tire.jpeg",
+    "title": "tire.jpeg"
+  }
+]
