@@ -1,13 +1,5 @@
 <!-- ProductCard.svelte -->
-<script lang="ts">
-    import { Card, Button, Rating, Badge } from "flowbite-svelte";
-  
-    // Define las props que el componente puede recibir
-    export let productName: string;
-    export let productPrice: string;
-    export let productImage: string;
-    export let productRating: number;
-  </script>
+
   
   <Card padding="none">
     <a href="/">
@@ -27,12 +19,13 @@
     </div>
   </Card>
   
-  <style>
-    .card {
-      transition: transform 0.2s, box-shadow 0.2s;
-    }
-    .card:hover {
-      transform: translateY(-5px);
-      box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
-    }
-  </style>
+  <script lang="ts">
+    import "./Card.css"
+    import { Card, Button, Rating, Badge } from "flowbite-svelte";
+  
+      // Define las props que el componente puede recibir
+      export let productName: string;
+      export let productPrice: string;
+      export let productImage: string;
+      export let productRating: number;
+    </script>

@@ -5,9 +5,9 @@
   import { Carousel } from "flowbite-svelte";
   import images from "./assets/images/images.json";
   import "./app.css";
-  import ProductCard from "./components/ui/Card.svelte";
-  import Footer from "./components/layouts/Footer.svelte";
-  import NavbarComponent from "./components/ui/Menu.svelte";
+  import ProductCard from "./components/ui/card/Index.js";
+  import Footer from "./components/layouts/footerLayout/Index.js";
+  import NavbarComponent from "./components/ui/menu/Menu.svelte";
   const products = [
     {
       name: "Samsung Galaxy Watch 4",
